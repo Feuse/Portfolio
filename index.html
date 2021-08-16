@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head id="top">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Londrina+Shadow&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../web/styles.css">
+    <script src="script.js"></script>
+    <title>Roman Sterlin</title>
+ 
+</head>
+<body>
+
+    <nav>
+        <ul  class="nav-list">
+            <li class="nav-list-item">
+                <a href="../web/media/Sterlin CV en.pdf" download>PDF RESUME</a>
+            </li>
+            <li class="nav-list-item">
+                <a href="#about">ABOUT</a>
+
+            </li>
+            <li class="nav-list-item">
+                <a href="#projects">PROJECTS</a>
+
+            </li>
+            <li class="nav-list-item">
+                <a href="#skills">SKILLS</a>
+
+            </li>
+            <li class="nav-list-item">
+                <a href="#contact">CONTACT</a>
+
+            </li>
+        </ul>
+    </nav>
+
+    <a href="#top"><img class="back-to-top" src="../web/media/back-top-top-logo.gif"></a>
+
+    <div class="wrapper-main">
+        <section  class="section section-1">
+            <p>Hi,My name is</p>
+            <div class="img">
+                <img class="name" src="../web/media/realfinalgif.gif" alt="ROMAN (cool gif not showing)">
+            </div>
+            <p class="small-sentence">and I am a...</p>
+            <div class="big-name">
+                <h2 class="software">FULLSTACK DEVELOPER</h2>
+            </div>
+        </section>
+        <div class="scroll-seperator" id="about"></div>
+        <div  class="wrapper-secondary">
+            <section class="section section-2">
+                <h2>ABOUT</h2>
+                <div class="get-to-know">
+                    <div class="get-to-know-body">
+                    <p>I am 28 years old living in Ashdod currently looking for a developer position. <br> I love building and
+                            creating things.</p>
+                    </div>
+                        <img class="about-photo" src="../web/media/finalface.gif">         
+                </div>
+            </section>
+         
+            <section class="section section-3">
+                <div class="scroll-seperator" id="skills"></div>
+                <div class="skills">
+                    <h2>SKILLS</h2>
+                    <p class="skills-each">.NET CORE ,C# ,SQL SERVER ,SOLID ,JS ,AJAX ,HTML ,jQuery , CSS ,ADOBE Animate</p>
+                </div>
+                <div class="projects">
+                    <div class="scroll-seperator" id="projects"></div>
+                    <h2>PROJECTS</h2>
+                    <div class="project-1">
+                        <div class="header-content-container">                     
+                            <h2 class="header">
+                                Auto Lover
+                            </h2>
+                            <p class="project-text"> An automatic "liking" service supporting the largest providers today such as: "Badoo", "Tinder" & "Bumble". with extra features such as All-In-One dashboard for all user active services giving the ability to control all your dating profiles from one spot. </p>
+                           <br>
+                           <a href="#">
+                               <p class="read-more"> read more...</p>
+                           </a> 
+                        </div>
+                        <div class="project-media-wrapper">
+                            <img class="arrow" src="../web/media/arrow-left.png" onclick="plusSlides(1)">  
+                            <div class="images-container">
+                                <figure class="image img-1 fade" onmousemove="zoom(event)" style="background-image: url(../web/media/tttt.jpg)">
+                                    <img src="../web/media/tttt.jpg" />
+                                </figure>
+                                <figure class="image img-4 fade" onmousemove="zoom(event)" style="background-image: url(../web/media/APIstructure.jpg)">
+                                    <img src="../web/media/APIstructure.jpg" />
+                                </figure>
+                                <figure class="image img-3 fade" onmousemove="zoom(event)" style="background-image: url(../web/media/Backend\ flow.jpg)">
+                                   <div class="single-image-container">
+                                       <img src="../web/media/Backend flow.jpg" />
+                                   </div>
+                                </figure>
+                                <figure class="image img-2 fade" onmousemove="zoom(event)" style="background-image: url(../web/media/big\ picture\ scheme.jpg)">
+                                    <img src="../web/media/big picture scheme.jpg" />
+                                </figure>
+                            </div>
+                            <img class="arrow" src="../web/media/arrow-right.png" onclick="plusSlides(-1)">        
+                        </div>
+                    </div>
+                    <div class="demo-git"> 
+                        <a href="#">
+                            <p class="source-1">
+                                Source
+                            </p>
+                        </a>
+                        <a href="#">
+                            
+                            <p class="demo-1">
+                                Demo
+                            </p>
+                        </a>
+                    
+                    </div>
+                    
+
+                </div>
+                
+            </section>
+            <div class="scroll-seperator" id="contact"></div>
+            <section class="section section-4">
+                <div class="contact">
+                    <h2 class="contact-head">LIKE WHAT YOU SEE? LETS TALK!</h2>
+                    <div class="contact-details">
+                        <div class="mail">
+                            <a href="mailto:Feuse135@gmail.com">
+                                <p>Feuse135@gmail.com</p>
+                                <div class="line"></div>
+                            </a>
+                        </div>
+                        <div class="logos">
+                            <a class="linkedin" href="https://www.linkedin.com/in/roman-sterlin-0510a517b/">
+                                <img class="linkedin" src="../web/media/linkedin.jpg">
+                            </a>
+                            <a class="github" href="https://github.com/Feuse">
+                                <img class="github" src="../web/media/github.jpg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer>created by roman sterlin 2021</footer>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function(){
+          // Add smooth scrolling to all links
+          $("a").on('click', function(event) {
+              if (this.hash !== "") {
+                $('a').css('pointerEvents', 'none');
+              event.preventDefault();
+              var hash = this.hash; 
+              $('html, body').animate({         
+                scrollTop: $(hash).offset().top
+            },
+            1200, function(){          
+                   $('a').css('pointerEvents', 'auto');
+              });    
+            } 
+          }); 
+        });
+
+        function zoom(e){
+            var width = window.innerWidth;
+    console.log(width)
+    if(width > 700){
+             var zoomer = e.currentTarget;
+             e.offsetX ? offsetX = e.offsetX : offsetX = e.touches[0].pageX
+             e.offsetY ? offsetY = e.offsetY : offsetX = e.touches[0].pageX
+             x = offsetX/zoomer.offsetWidth*100
+             y = offsetY/zoomer.offsetHeight*100
+          zoomer.style.backgroundPosition = x + '% ' + y + '%';
+          
+        }
+    }
+
+        var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+    
+  var i;
+  var slides = document.getElementsByClassName("image");
+
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+
+  slides[slideIndex-1].style.display = "block";
+
+}
+
+
+
+
+     </script>
+</body>
+</html>
