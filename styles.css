@@ -68,10 +68,6 @@ h2{
     width: auto;
 }
 
-.single-image-container{
-    
-}
-
 .skill-single{
     font-size: 3rem;
 }
@@ -223,10 +219,6 @@ margin-top: -3em;
     margin-bottom: 15em;
 }
 
-#projects{
-    height:250px;
-}
-
 img{
     padding:.5em 0;
 }
@@ -263,6 +255,11 @@ footer{
     50% {transform: translateY(-5px);}
 }
 
+
+.arrow:active{
+    animation: pop 0.2s linear 1;
+}
+
 .nav-list-item:hover,
 .nav-list-item:focus
 {
@@ -297,7 +294,6 @@ nav ul{
 
 .demo-git{
     display: flex;
-    justify-content: space-evenly
 }
 
 .source-1,
@@ -343,11 +339,11 @@ nav ul{
 
 .arrow{
     width: 8%;
-    height: 100%;
     cursor: pointer;
 }
 
 .project-media-wrapper{
+    height: 500px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -386,6 +382,9 @@ figure.image {
 
 
 @media (max-width:900px){
+    .project-media-wrapper{
+        height: 100%;
+    }
       .nav-list-item:first-child{
           margin-right: auto;
       }
@@ -396,6 +395,9 @@ figure.image {
 }
 
 @media (max-width:700px){
+    .project-media-wrapper{
+        height: 100%;
+    }
     figure.image img:hover {
         opacity: 100;
         cursor: initial;
@@ -427,9 +429,7 @@ figure.image {
       .projects{
         min-width: 250px;
       }
-      .nav-list-item{
-          
-          margin-bottom: 1em;
+      .nav-list-item{  
           text-align: center; 
           margin-bottom: 5em;
       }
@@ -505,7 +505,5 @@ figure.image {
         width: 150%;
     }
 
-    #projects{
-        height: 50px;
-    }
+    
 }
